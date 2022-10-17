@@ -1,0 +1,63 @@
+/* body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--secondary);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+} */
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+.logo-font {
+    font-family: 'Sunflower', sans-serif;
+}
+
+.banner {
+    background-image: url(images/card-banner.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/mk-s-CR1YT5Ahp3E-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: darkblue !important;
+    font-weight: bold;
+}
+
+
+#carouselHeader img {
+    filter: grayscale(50%);
+    /* transition: all .5s; */
+}
+
+#carouselHeader:hover img {
+    filter: grayscale(0%);
+}
+
+
+
+.card-img-top {
+    /* filter: grayscale(50%); */
+    transition: transform .7s;
+}
+
+.card-img-top:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
