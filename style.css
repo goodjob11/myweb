@@ -1,39 +1,18 @@
-/* body {
-    font-family: 'Poppins', sans-serif;
-    color: var(--secondary);
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 300;
-} */
-
-
 body {
     font-family: 'Noto Sans KR', sans-serif;
 }
-
 
 h1,
 h2,
 h3,
 h4,
+h5,
 .logo-font {
     font-family: 'Sunflower', sans-serif;
 }
 
-.banner {
-    background-image: url(images/card-banner.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
 
-.contact-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/mk-s-CR1YT5Ahp3E-unsplash.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
+/* 네비게이션 영역 */
 .nav-link.active,
 .nav-link:hover {
     color: darkblue !important;
@@ -41,23 +20,36 @@ h4,
 }
 
 
-#carouselHeader img {
-    filter: grayscale(50%);
-    /* transition: all .5s; */
+/* 헤더 영역 */
+#headerCarousel img {
+    filter: grayscale(50%)
 }
 
-#carouselHeader:hover img {
-    filter: grayscale(0%);
+#headerCarousel:hover img {
+    filter: grayscale(0%)
 }
 
 
-
+/* index.html 포트폴리오 섹션 */
 .card-img-top {
-    /* filter: grayscale(50%); */
     transition: transform .7s;
 }
 
 .card-img-top:hover {
-    filter: grayscale(0%);
     transform: scale(1.1);
+}
+
+.banner {
+    background-image: url(images/card-banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* contact.html  Contact 섹션 */
+.contact-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(images/contact-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
